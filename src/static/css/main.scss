@@ -1,0 +1,207 @@
+/* 
+* @Author: 123456
+* @Date:   2018-07-09 17:08:11
+* @Last Modified by:   dongyankun
+* @Last Modified time: 2018-11-15 16:26:02
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.el-submenu__title{
+	background: #434A50!important;
+}
+.headerBtn{
+	display: -webkit-flex; /* Safari */
+  	display: flex;
+  	justify-content:space-between;
+  	.headerBtnLeft{
+  		justify-content:flex-start;
+		align-items:center;
+  	}
+  	.headerBtnRight{
+  		justify-content:flex-start;
+		align-items:center;
+  	}
+	.el-input{
+		margin:0 20px 20px 0;
+		align-items:center;
+		width: 200px;
+		justify-content:flex-end;
+	}
+	.selectBtn{
+		align-items:center;
+		justify-content:flex-end;
+	}
+}
+.el-message{
+	z-index:100000 !important;
+}
+.nsiLog{
+	text-align: left;
+	text-indent: 5px;
+	font-size: 20px;
+	color:#00a65a;
+}
+.nsiMenuBtn{
+	cursor: pointer;
+	border:0;
+}
+.headerRight,.headerLeft{
+	display: -webkit-flex; /* Safari */
+  	display: flex;
+  	flex-direction: row;
+}
+.headerLeft span{
+	padding:0 25px;
+	color:#57a3f3;
+}
+.headerRight{
+	justify-content:flex-end;
+	align-items:center;
+	color:#57a3f3;
+	img{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+	}
+	span{
+		cursor: pointer;
+		margin:0 10px;
+		line-height: 60px;
+	}
+}
+.el-header {
+	background-color: #143f6d;
+	color: #333;
+	text-align: center;
+	line-height: 60px;
+}
+
+.el-aside {
+	width: 200px;
+  	background-color: #0d5477;
+  	color: #333;
+  	text-align: center;
+}
+.el-main {
+  	background-color: #E9EEF3;
+  	color: #333;
+  	text-align: center;
+}
+.mainBox {
+  	height: 100%;
+}
+.mypagination{
+	margin-top: 20px;
+}
+/* 官网活动 */
+ul,li{
+	list-style:none;
+}
+.cardMain{
+	min-width: 400px;
+}
+.cardMain ul li{
+	text-indent:20px;
+	text-align:left;
+	line-height:30px;
+}
+.cardImg{
+	padding:5px 0;
+}
+.cardTextcontent{
+	word-break:keep-all;
+	line-height:25px;
+}
+.updateCard{
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	justify-content:flex-end;
+	align-items:center;
+	margin:10px 30px 10px 0;
+}
+.updateCardForm{
+
+	.el-input{
+	  display: -webkit-flex; /* Safari */
+	  display: flex;
+	  max-width:300px;
+	}
+}
+.cardMain,.uploadImg,beforeUploadImg{
+	display: -webkit-flex; /* Safari */
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+/*新资讯  */
+.createNews{
+margin-top:20px;
+}
+.el-loading-mask,.el-dialog__wrapper{
+z-index:100000!important;
+}
+.createNews{
+.el-radio-group,.el-textarea,.el-input,.el-switch{
+  max-width: 400px;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+.el-switch{
+  margin-top:10px;
+}
+.el-upload{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  margin-left:100px;
+}
+.el-upload__tip{
+	text-align:left;
+	text-indent:100px;
+}
+.uploadImgSrc{
+  border:0;
+  width: 187px;
+  height: 100px;
+  display: flex;
+  margin:-65px 0 0 321px;
+  cursor:pointer;
+}
+}
+/* banner */
+.bannerTitle{
+	margin:20px 0px 30px 10px;
+	text-align: center;
+	font-size:22px;
+}
+.distributionTable,.websiteTable,.headerBtn{
+	width: 100%;
+	min-width: 600px;
+}
+.el-message-box{
+	width: 300px;
+}
+h1{
+	font-size: 2em;
+}
+.radioBox{
+	min-width: 580px;
+}
+.bannerInfo p{
+	text-align: left;
+	max-width: 225px;
+	height: 20px;
+	overflow: hidden;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.uploadBanner{
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+}
+.w-e-text-container{
+	height: 600px !important;
+}
